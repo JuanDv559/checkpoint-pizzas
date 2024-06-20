@@ -1,0 +1,35 @@
+*{margin: 0%;
+padding:0%;
+box-sizing: border-box;}
+
+p{color:white;}
+h1{color:white;}
+
+header{display:flex;
+justify-content: center;}
+
+.content{background-color: black;
+display :flex;
+flex-direction: column;
+height:100vh;}
+
+.banner{background-image: url(./Assets/fondo.jpg);
+background-size: cover;
+display: flex;
+flex-direction: column;
+flex-grow: 2;}
+
+li{color:white}
+
+
+.img_main{height: 20rem;
+width: 20rem;}
+
+article{display:flex;
+        justify-content: center;
+        gap:2%;
+    padding: 2%;}
+
+table{color: white}
+
+footer{display:flex;}
